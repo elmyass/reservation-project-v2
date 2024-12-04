@@ -11,11 +11,10 @@ public class Calendrier {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private LocalDateTime date;  // Date de la réservation
-    private String heure;        // Heure de la réservation
-    private String description;  // Description de l'événement/réunion
+    private LocalDateTime date;
+    private String heure;
+    private String description;
 
-    // Getters et Setters
     public Long getId() {
         return id;
     }

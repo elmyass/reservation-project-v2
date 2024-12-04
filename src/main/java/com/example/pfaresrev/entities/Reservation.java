@@ -21,5 +21,5 @@ public class Reservation {
     @JoinColumn(name = "calendrier_id")
     private Calendrier calendrier;
 
-    // Getters et setters
+
 }
